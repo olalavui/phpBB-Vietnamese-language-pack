@@ -37,10 +37,10 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ACTIVE_TOPICS'			=> 'Active topics',
+	'ACTIVE_TOPICS'			=> 'Bài viết hoạt động',
 	'ANNOUNCEMENTS'			=> 'Thông báo',
 
-	'FORUM_PERMISSIONS'		=> 'Quyền hạn trong forum',
+	'FORUM_PERMISSIONS'		=> 'Quyền hạn trong chuyên mục',
 
 	'ICON_ANNOUNCEMENT'		=> 'Thông báo',
 	'ICON_STICKY'			=> 'Chú ý',
@@ -66,7 +66,7 @@ $lang = array_merge($lang, array(
 
 	'VIEW_FORUM'			=> 'Xem diễn đàn',
 	'VIEW_FORUM_TOPICS'		=> array(
-		1	=> '%d topic',
-		2	=> '%d topic',
+		1	=> '%d bài viết',
+		2	=> '%d bài viết',
 	),
 ));
