@@ -62,9 +62,9 @@ $lang = array_merge($lang, array(
 	'EXTENSION_DISABLE_IN_PROGRESS'	=> 'The extension is currently being disabled. Please do not leave or refresh this page until it is completed.',
 	'EXTENSION_ENABLE_IN_PROGRESS'	=> 'The extension is currently being enabled. Please do not leave or refresh this page until it is completed.',
 
-	'EXTENSION_DELETE_DATA_SUCCESS'	=> 'The extension’s data was deleted successfully',
-	'EXTENSION_DISABLE_SUCCESS'		=> 'The extension was disabled successfully',
-	'EXTENSION_ENABLE_SUCCESS'		=> 'The extension was enabled successfully',
+	'EXTENSION_DELETE_DATA_SUCCESS'	=> 'Xóa dữ liệu extension thành công',
+	'EXTENSION_DISABLE_SUCCESS'		=> 'Ngưng kích hoạt extension thành công',
+	'EXTENSION_ENABLE_SUCCESS'		=> 'Kích hoạt extension thành công',
 
 	'EXTENSION_NAME'			=> 'Tên Extension',
 	'EXTENSION_ACTIONS'			=> 'Hành động',
