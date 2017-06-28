@@ -390,13 +390,13 @@ $lang = array_merge($lang, array(
 
 	'NO_SEARCH_INDEX'	=> 'The selected search backend does not have a search index.<br />Please create the index for “%1$s” in the %2$ssearch index%3$s section.',
 	'NOT_AVAILABLE'		=> 'Not available',
-	'NUMBER_FILES'		=> 'Number of attachments',
+	'NUMBER_FILES'		=> 'Số lượng file đính kèm',
 	'NUMBER_POSTS'		=> 'Số lượng bài viết',
 	'NUMBER_TOPICS'		=> 'Số lượng chủ đề',
 	'NUMBER_USERS'		=> 'Số lượng thành viên',
 	'NUMBER_ORPHAN'		=> 'Orphan attachments',
 
-	'PHP_VERSION_OLD'	=> 'The version of PHP on this server will no longer be supported by future versions of phpBB. %sDetails%s',
+	'PHP_VERSION_OLD'	=> 'Phiên bản PHP trên server sẽ không được hỗ trợ các phiên bản phpBB trong tương lại. %sXem thông tin%s',
 
 	'POSTS_PER_DAY'		=> 'Bài viết theo ngày',
 
@@ -406,8 +406,8 @@ $lang = array_merge($lang, array(
 	'PURGE_CACHE_SUCCESS'	=> 'Xóa cache thành công!',
 
 	'PURGE_SESSIONS'			=> 'Xóa tất cả các phiên làm việc',
-	'PURGE_SESSIONS_CONFIRM'	=> 'Are you sure you wish to purge all sessions? This will log out all users.',
-	'PURGE_SESSIONS_EXPLAIN'	=> 'Purge all sessions. This will log out all users by truncating the session table.',
+	'PURGE_SESSIONS_CONFIRM'	=> 'Bạn thực sự muốn xóa tất cả các sessions? Điều này sẽ khiến các thành viên bị đăng xuất khỏi tài khoản.',
+	'PURGE_SESSIONS_EXPLAIN'	=> 'Xóa tất cả các sessions. Điều này sẽ khiến các thành viên bị đăng xuất khỏi tài khoản.',
 	'PURGE_SESSIONS_SUCCESS'	=> 'Xóa tất cả các phiên làm việc thành công.',
 
 	'RESET_DATE'					=> 'Reset ngày bắt đầu diễn đàn',
@@ -427,7 +427,7 @@ $lang = array_merge($lang, array(
 	'RESYNC_STATS'					=> 'Đồng bộ lại thống kê',
 	'RESYNC_STATS_CONFIRM'			=> 'Bạn thực sự muốn đồng bộ lại thống kê?',
 	'RESYNC_STATS_EXPLAIN'			=> 'Việc này sẽ đếm lại số lượng các chủ đề / bài viết / thành viên / file đính kèm trong diễn đàn',
-	'RESYNC_STATS_SUCCESS'			=> 'Resynchronised statistics',
+	'RESYNC_STATS_SUCCESS'			=> 'Đồng bộ lại thống kê thành công',
 	'RUN'							=> 'Thực hiện luôn',
 
 	'STATISTIC'					=> 'Thống kê',
@@ -452,12 +452,12 @@ $lang = array_merge($lang, array(
 	'VIEW_INACTIVE_USERS'		=> 'Xem thành viên chưa kích hoạt',
 
 	'WELCOME_PHPBB'			=> 'Chào mừng đến với khung quản trị phpBB',
-	'WRITABLE_CONFIG'		=> 'Your config file (config.php) is currently world-writable. We strongly encourage you to change the permissions to 640 or at least to 644 (for example: <a href="http://en.wikipedia.org/wiki/Chmod" rel="external">chmod</a> 640 config.php).',
+	'WRITABLE_CONFIG'		=> 'File Config (config.php) của bạn hiện có ghi (writable). Chúng tôi khuyến cáo bạn nên CHMOD về 640 hoặc ít nhất là 644 (tìm hiểu: <a href="http://en.wikipedia.org/wiki/Chmod" rel="external">chmod</a> để biết rõ hơn).',
 ));
 
 // Inactive Users
 $lang = array_merge($lang, array(
-	'INACTIVE_DATE'					=> 'Inactive date',
+	'INACTIVE_DATE'					=> 'Ngày không hoạt động',
 	'INACTIVE_REASON'				=> 'Lý do',
 	'INACTIVE_REASON_MANUAL'		=> 'Account deactivated by administrator',
 	'INACTIVE_REASON_PROFILE'		=> 'Thông tin cá nhân đã được thay đổi',
@@ -472,10 +472,10 @@ $lang = array_merge($lang, array(
 
 	'SORT_INACTIVE'		=> 'Inactive date',
 	'SORT_LAST_VISIT'	=> 'Last visit',
-	'SORT_REASON'		=> 'Reason',
+	'SORT_REASON'		=> 'Lý do',
 	'SORT_REG_DATE'		=> 'Ngày đăng ký',
 	'SORT_LAST_REMINDER'=> 'Last reminded',
-	'SORT_REMINDER'		=> 'Reminder sent',
+	'SORT_REMINDER'		=> 'Gửi nhắc nhở',
 
 	'USER_IS_INACTIVE'		=> 'User is inactive',
 ));
