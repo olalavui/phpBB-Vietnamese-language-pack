@@ -109,7 +109,7 @@ $lang = array_merge($lang, array(
 	'APPLY_ALL_PERMISSIONS'		=> 'Apply all permissions',
 	'APPLY_PERMISSIONS'			=> 'Apply permissions',
 	'APPLY_PERMISSIONS_EXPLAIN'	=> 'The permissions and role defined for this item will only be applied to this item and all checked items.',
-	'AUTH_UPDATED'				=> 'Permissions have been updated.',
+	'AUTH_UPDATED'				=> 'Phân quyền đã được cập nhật',
 
 	'COPY_PERMISSIONS_CONFIRM'				=> 'Are you sure you wish to carry out this operation? Please be aware that this will overwrite any existing permissions on the selected targets.',
 	'COPY_PERMISSIONS_FORUM_FROM_EXPLAIN'	=> 'The source forum you want to copy permissions from.',

@@ -45,7 +45,7 @@ $lang = array_merge($lang, array(
 	'BOOKMARK_ERR'			=> 'Bookmark topic không thành công. Hãy thử lại.',
 	'BOOKMARK_REMOVED'		=> 'Xóa bookmark topic thành công.',
 	'BOOKMARK_TOPIC'		=> 'Bookmark topic',
-	'BOOKMARK_TOPIC_REMOVE'	=> 'Remove from bookmarks',
+	'BOOKMARK_TOPIC_REMOVE'	=> 'Xóa khỏi bookmark',
 	'BUMPED_BY'				=> 'Last bumped by %1$s on %2$s.',
 	'BUMP_TOPIC'			=> 'Bump topic',
 
@@ -109,7 +109,7 @@ $lang = array_merge($lang, array(
 	'TOPIC_TOOLS'			=> 'Topic tools',
 	'TOTAL_VOTES'			=> 'Total votes',
 
-	'UNLOCK_TOPIC'			=> 'Unlock topic',
+	'UNLOCK_TOPIC'			=> 'Mở khóa topic',
 
 	'VIEW_INFO'				=> 'Chi tiết bài viết',
 	'VIEW_NEXT_TOPIC'		=> 'Bài tiếp theo',

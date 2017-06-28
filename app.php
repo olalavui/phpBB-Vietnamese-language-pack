@@ -8,7 +8,7 @@
 *
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
-*
+* Vietnamese language pack <giaminhteam@gmail.com>
 */
 
 /**
