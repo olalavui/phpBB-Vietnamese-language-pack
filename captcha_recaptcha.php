@@ -37,16 +37,16 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'RECAPTCHA_LANG'				=> 'en',
+	'RECAPTCHA_LANG'				=> 'vi',
 	'RECAPTCHA_NOT_AVAILABLE'		=> 'Để sử dụng reCaptcha, bạn phải tạo tài khoản trên <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
 	'CAPTCHA_RECAPTCHA'				=> 'reCaptcha',
 	'RECAPTCHA_INCORRECT'			=> 'The solution you provided was incorrect',
 	'RECAPTCHA_NOSCRIPT'			=> 'Please enable JavaScript in your browser to load the challenge.',
 
-	'RECAPTCHA_PUBLIC'				=> 'Public reCaptcha key',
-	'RECAPTCHA_PUBLIC_EXPLAIN'		=> 'Nhập public reCaptcha key. Key xem tại <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
-	'RECAPTCHA_PRIVATE'				=> 'Private reCaptcha key',
-	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'Nhập private reCaptcha key. Key xem tại <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
+	'RECAPTCHA_PUBLIC'				=> 'Khóa công khai reCaptcha (public key)',
+	'RECAPTCHA_PUBLIC_EXPLAIN'		=> 'Nhập khóa công khai reCaptcha. Key xem tại <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
+	'RECAPTCHA_PRIVATE'				=> 'Khóa bí mật reCaptcha',
+	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'Nhập khóa bị mật reCaptcha. Key xem tại <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
 
 	'RECAPTCHA_EXPLAIN'				=> 'In an effort to prevent automatic submissions, we require that you complete the following challenge.',
 ));

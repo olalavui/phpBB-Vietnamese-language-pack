@@ -52,9 +52,9 @@ $lang = array_merge($lang, array(
 	'CONTACT_ADMIN'			=> 'Liên hệ Ban Quản Trị',
 
 	'DEST_LANG'				=> 'Ngôn ngữ',
-	'DEST_LANG_EXPLAIN'		=> 'Select an appropriate language (if available) for the recipient of this message.',
+	'DEST_LANG_EXPLAIN'		=> 'Lựa chọn ngôn ngữ để gửi liên hệ.',
 
-	'EDIT_PROFILE'			=> 'Edit profile',
+	'EDIT_PROFILE'			=> 'Sửa thông tin cá nhân',
 
 	'EMAIL_BODY_EXPLAIN'	=> 'Nhập nội dung liên hệ tại đây. BBCode hay HTML đều không được phép',
 	'EMAIL_DISABLED'		=> 'Sorry but all email related functions have been disabled.',
@@ -72,16 +72,16 @@ $lang = array_merge($lang, array(
 	'FIND_USERNAME_EXPLAIN'	=> 'Use this form to search for specific members. You do not need to fill out all fields. To match partial data use * as a wildcard. When entering dates use the format <kbd>YYYY-MM-DD</kbd>, e.g. <samp>2004-02-29</samp>. Use the mark checkboxes to select one or more usernames (several usernames may be accepted depending on the form itself) and click the Select Marked button to return to the previous form.',
 	'FLOOD_EMAIL_LIMIT'		=> 'You cannot send another email at this time. Please try again later.',
 
-	'GROUP_LEADER'			=> 'Group leader',
+	'GROUP_LEADER'			=> 'Trưởng nhóm',
 
 	'HIDE_MEMBER_SEARCH'	=> 'Hide member search',
 
-	'IM_ADD_CONTACT'		=> 'Add Contact',
+	'IM_ADD_CONTACT'		=> 'Thêm liên hệ',
 	'IM_DOWNLOAD_APP'		=> 'Download application',
 	'IM_JABBER'				=> 'Please note that users may have selected to not receive unsolicited instant messages.',
 	'IM_JABBER_SUBJECT'		=> 'This is an automated message please do not reply! Message from user %1$s at %2$s.',
-	'IM_MESSAGE'			=> 'Your message',
-	'IM_NAME'				=> 'Your Name',
+	'IM_MESSAGE'			=> 'Nội dung',
+	'IM_NAME'				=> 'Tên của bạn',
 	'IM_NO_DATA'			=> 'There is no suitable contact information for this user.',
 	'IM_NO_JABBER'			=> 'Sorry, direct messaging of Jabber users is not supported on this board. You will need a Jabber client installed on your system to contact the recipient above.',
 	'IM_RECIPIENT'			=> 'Recipient',
@@ -91,18 +91,18 @@ $lang = array_merge($lang, array(
 	'IM_USER'				=> 'Send an instant message',
 
 	'LAST_ACTIVE'				=> 'Hoạt động cuối',
-	'LESS_THAN'					=> 'Less than',
+	'LESS_THAN'					=> 'Ít hơn',
 	'LIST_USERS'				=> array(
-		1	=> '%d user',
-		2	=> '%d users',
+		1	=> '%d thành viên',
+		2	=> '%d thành viên',
 	),
 	'LOGIN_EXPLAIN_TEAM'		=> 'The board requires you to be registered and logged in to view the team listing.',
 	'LOGIN_EXPLAIN_MEMBERLIST'	=> 'The board requires you to be registered and logged in to access the memberlist.',
 	'LOGIN_EXPLAIN_SEARCHUSER'	=> 'The board requires you to be registered and logged in to search users.',
 	'LOGIN_EXPLAIN_VIEWPROFILE'	=> 'The board requires you to be registered and logged in to view profiles.',
 
-	'MANAGE_GROUP'			=> 'Manage Group',
-	'MORE_THAN'				=> 'More than',
+	'MANAGE_GROUP'			=> 'Quản lý nhóm',
+	'MORE_THAN'				=> 'Nhiều hơn',
 
 	'NO_CONTACT_FORM'		=> 'The board administrator contact form has been disabled.',
 	'NO_CONTACT_PAGE'		=> 'The board administrator contact page has been disabled.',
@@ -110,27 +110,27 @@ $lang = array_merge($lang, array(
 	'NO_VIEW_USERS'			=> 'You are not authorised to view the member list or profiles.',
 
 	'ORDER'					=> 'Order',
-	'OTHER'					=> 'Other',
+	'OTHER'					=> 'Khác',
 
 	'POST_IP'				=> 'Posted from IP/domain',
 
-	'REAL_NAME'				=> 'Recipient name',
+	'REAL_NAME'				=> 'Tên người nhận',
 	'RECIPIENT'				=> 'Người nhận',
 	'REMOVE_FOE'			=> 'Remove foe',
-	'REMOVE_FRIEND'			=> 'Remove friend',
+	'REMOVE_FRIEND'			=> 'Xóa bạn bè',
 
 	'SELECT_MARKED'			=> 'Select marked',
 	'SELECT_SORT_METHOD'	=> 'Select sort method',
-	'SENDER_EMAIL_ADDRESS'	=> 'Your email address',
-	'SENDER_NAME'			=> 'Your name',
-	'SEND_ICQ_MESSAGE'		=> 'Send ICQ message',
+	'SENDER_EMAIL_ADDRESS'	=> 'Email của bạn',
+	'SENDER_NAME'			=> 'Tên của bạn',
+	'SEND_ICQ_MESSAGE'		=> 'Gửi ICQ message',
 	'SEND_IM'				=> 'Instant messaging',
-	'SEND_JABBER_MESSAGE'	=> 'Send Jabber message',
+	'SEND_JABBER_MESSAGE'	=> 'Gửi Jabber message',
 	'SEND_MESSAGE'			=> 'Message',
-	'SEND_YIM_MESSAGE'		=> 'Send YIM message',
+	'SEND_YIM_MESSAGE'		=> 'Gửi YIM message',
 	'SORT_EMAIL'			=> 'Email',
-	'SORT_LAST_ACTIVE'		=> 'Hoạt động cuối',
-	'SORT_POST_COUNT'		=> 'Post count',
+	'SORT_LAST_ACTIVE'		=> 'Hoạt động lần cuối',
+	'SORT_POST_COUNT'		=> 'Số bài viết',
 
 	'USERNAME_BEGINS_WITH'	=> 'Username begins with',
 	'USER_ADMIN'			=> 'Administer user',

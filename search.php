@@ -8,7 +8,7 @@
 *
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
-*
+* Vietnamese language pack <giaminhteam@gmail.com>
 */
 
 /**
@@ -53,7 +53,7 @@ $lang = array_merge($lang, array(
 
 	'GLOBAL'				=> 'Global announcement',
 
-	'IGNORED_TERMS'			=> 'ignored',
+	'IGNORED_TERMS'			=> 'bỏ qua',
 	'IGNORED_TERMS_EXPLAIN'	=> 'The following words in your search query were ignored because they are too common words: <strong>%s</strong>.',
 
 	'JUMP_TO_POST'			=> 'Nhảy tới bài viết',
