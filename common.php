@@ -41,7 +41,7 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'TRANSLATION_INFO'	=> 'Bản dịch Tiếng Việt bởi <a href="https://www.top1.com.vn" title="Diễn đàn Top1 Việt Nam">Top1.com.vn</a>',
+	'TRANSLATION_INFO'	=> 'Bản dịch bởi <a href="https://www.phpbb.com/customise/db/translation/vietnamese/" title="phpBB Việt Nam">phpBB.com Vietnamese</a>',
 	'DIRECTION'			=> 'ltr',
 	'DATE_FORMAT'		=> '|d M Y|',	// 01 Jan 2007 (with Relative days enabled)
 	'DATETIME_FORMAT'	=> '|d M Y, H:i|',	// 01 Jan 2007, 13:37 (with Relative days enabled)
@@ -154,7 +154,7 @@ $lang = array_merge($lang, array(
 
 	'CANCEL'				=> 'Hủy',
 	'CHANGE'				=> 'Thay đổi',
-	'CHANGE_FONT_SIZE'		=> 'Change font size',
+	'CHANGE_FONT_SIZE'		=> 'Đổi kích thước chữ',
 	'CHANGING_PREFERENCES'	=> 'Changing board preferences',
 	'CHANGING_PROFILE'		=> 'Changing profile settings',
 	'CHARACTERS'			=> array(
@@ -174,7 +174,7 @@ $lang = array_merge($lang, array(
 	'CONFIRM_AVATAR_DELETE' => 'Bạn thực sự muốn xóa avatar?',
 	'CONGRATULATIONS'		=> 'Chúc mừng',
 	'CONNECTION_FAILED'		=> 'Kết nối lỗi.',
-	'CONNECTION_SUCCESS'	=> 'Connection was successful!',
+	'CONNECTION_SUCCESS'	=> 'Kết nối thành công!',
 	'CONTACT'				=> 'Liên hệ',
 	'CONTACT_USER'			=> 'Liên hệ %s',
 	'CONTACT_US'			=> 'Liên hệ BQT',
@@ -229,9 +229,9 @@ $lang = array_merge($lang, array(
 	'ERROR'									=> 'Lỗi',
 	'EXPAND_VIEW'						=> 'Mở rộng',
 	'EXTENSION'							=> 'Extension',
-	'EXTENSION_DISABLED'				=> 'The extension <strong>%s</strong> is not enabled.',
+	'EXTENSION_DISABLED'				=> 'Gói mở rộng <strong>%s</strong> chưa được kích hoạt.',
 	'EXTENSION_DISABLED_AFTER_POSTING'	=> 'The extension <strong>%s</strong> has been deactivated and can no longer be displayed.',
-	'EXTENSION_DOES_NOT_EXIST'			=> 'The extension <strong>%s</strong> does not exist.',
+	'EXTENSION_DOES_NOT_EXIST'			=> 'Gói mở rộng <strong>%s</strong> không tồn tại.',
 
 	'FACEBOOK'				=> 'Facebook',
 	'FAQ'					=> 'FAQ',
