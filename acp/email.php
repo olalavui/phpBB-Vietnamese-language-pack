@@ -8,7 +8,7 @@
 *
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
-*
+* Vietnamese language pack <giaminhteam@gmail.com>
 */
 
 /**
@@ -39,7 +39,7 @@ if (empty($lang) || !is_array($lang))
 // Email settings
 $lang = array_merge($lang, array(
 	'ACP_MASS_EMAIL_EXPLAIN'		=> 'Here you can email a message to either all of your users or all users of a specific group <strong>having the option to receive mass emails enabled</strong>. To achieve this an email will be sent out to the administrative email address supplied, with a blind carbon copy sent to all recipients. The default setting is to only include 20 recipients in such an email, for more recipients more emails will be sent. If you are emailing a large group of people please be patient after submitting and do not stop the page halfway through. It is normal for a mass emailing to take a long time, you will be notified when the script has completed.',
-	'ALL_USERS'						=> 'All users',
+	'ALL_USERS'						=> 'Tất cả',
 
 	'COMPOSE'				=> 'Compose',
 
@@ -49,20 +49,20 @@ $lang = array_merge($lang, array(
 
 	'LOG_SESSION'			=> 'Log mail session to critical log',
 
-	'SEND_IMMEDIATELY'		=> 'Send immediately',
-	'SEND_TO_GROUP'			=> 'Send to group',
-	'SEND_TO_USERS'			=> 'Send to users',
+	'SEND_IMMEDIATELY'		=> 'Gửi luôn',
+	'SEND_TO_GROUP'			=> 'Gửi tới nhóm',
+	'SEND_TO_USERS'			=> 'Gửi tới thành viên',
 	'SEND_TO_USERS_EXPLAIN'	=> 'Entering names here will override any group selected above. Enter each username on a new line.',
 
 	'MAIL_BANNED'			=> 'Mail banned users',
 	'MAIL_BANNED_EXPLAIN'	=> 'When sending a mass email to a group you can select here whether banned users will also receive the email.',
-	'MAIL_HIGH_PRIORITY'	=> 'High',
-	'MAIL_LOW_PRIORITY'		=> 'Low',
-	'MAIL_NORMAL_PRIORITY'	=> 'Normal',
+	'MAIL_HIGH_PRIORITY'	=> 'Ưu tiên cao',
+	'MAIL_LOW_PRIORITY'		=> 'Ưu tiên thấp',
+	'MAIL_NORMAL_PRIORITY'	=> 'Ưu tiên thông thường',
 	'MAIL_PRIORITY'			=> 'Mail priority',
-	'MASS_MESSAGE'			=> 'Your message',
+	'MASS_MESSAGE'			=> 'Nội dung tin',
 	'MASS_MESSAGE_EXPLAIN'	=> 'Please note that you may enter only plain text. All markup will be removed before sending.',
 
-	'NO_EMAIL_MESSAGE'		=> 'You must enter a message.',
-	'NO_EMAIL_SUBJECT'		=> 'You must specify a subject for your message.',
+	'NO_EMAIL_MESSAGE'		=> 'Bạn phải nhập nội dung tin.',
+	'NO_EMAIL_SUBJECT'		=> 'Bạn phải nhập tiêu đề nội dung tin.',
 ));
